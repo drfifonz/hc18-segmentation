@@ -1,0 +1,18 @@
+name: pymic
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - ca-certificates
+  - openssl
+  - wandb
+  - scikit-learn
+  - black
+  - flake8
+  - pip
+  - pip:
+    - opencv-python
+    - PYMIC==0.4.0
