@@ -12,6 +12,8 @@ dependencies:
   - scikit-learn
   - black
   - flake8
+  - ipykernel
+  - ipywidgets
   - pip
   - pip:
     - opencv-python
