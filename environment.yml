@@ -1,6 +1,8 @@
 name: pymic
 channels:
   - conda-forge
+  - pytorch
+  - nvidia
 dependencies:
   - python=3.10
   - pytorch
@@ -12,6 +14,7 @@ dependencies:
   - scikit-learn
   - black
   - flake8
+  - jupyter
   - ipykernel
   - ipywidgets
   - pip
