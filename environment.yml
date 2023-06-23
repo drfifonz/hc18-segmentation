@@ -21,3 +21,7 @@ dependencies:
   - pip:
     - opencv-python
     - PYMIC==0.4.0
+    - ml_collections
+    - einops
+    - timm
+    - monai
